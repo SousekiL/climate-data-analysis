@@ -1,0 +1,14 @@
+# 系统文件
+.DS_Store
+.Rhistory
+
+# 忽略大型数据文件
+data/*.nc
+data/*.tif
+data/*.nc.gz
+
+# 忽略 data 目录下的 .txt 文件
+data/*.txt
+
+# 不忽略 data 文件夹本身
+!data/
